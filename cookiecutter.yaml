@@ -1,15 +1,15 @@
 repo_directory: html
-name: UW Hackweek
+name: NASA Community Snow Meeting
 apply:
   url: '#'
-  title: Application coming soon
+  title: Application coming soon, expected June 1
 hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
   description: An awesome learning event.
-  start_date: XX Month
-  end_date: XX Month
-  year: 2023
-  location: Seattle, WA
+  start_date: 14 August
+  end_date: 15 August
+  year: 2024
+  location: Boulder, CO
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
   links:
   # - url: intro.html
@@ -17,7 +17,7 @@ banner:
   #   new_window: false
   image: https://geohackweek.github.io/assets/images/banner.jpg
 # The opening session of the event with UTC offset
-event_countdown: "2024-08-07T08:30:00-07:00"
+event_countdown: "2024-08-014T08:30:00-07:00"
 about:
   description: Hackweeks are participant-driven events that strive to create
     welcoming spaces for participants to learn new things, build community and
