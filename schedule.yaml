@@ -3,34 +3,34 @@ tabs:
 - title: Day 1
   date: Wednesday 14 August
   contents:
-  - title: Summary and State of the Science/Community Discussion
+  - title: State of the Science
     description: Welcome, expectations, initial summary of state of the science to date
     time: 8:00 - 9:30
-    leads:
-    - Kate Hale
-    - Jared Entin/Craig Ferguson
-    - Carrie Vuyovich
+    # leads:
+    # - Kate Hale
+    # - Jared Entin/Craig Ferguson
+    # - Carrie Vuyovich
   - title: BREAK
     description: null
     time: 9:30 - 10:00
   - title: Breakout Session for Current Sensing Techniques # can't use a ':'
     description: Discuss the current capabilities and state of the art of numerous sensing techniques by answering breakout session questions
-    time: 10:00 - 11:00
-    leads:
-    - Jack Tarricone
+    time: 10:00 - 12:00
+    # leads:
+    # - Jack Tarricone
   - title: LUNCH (catered)
     description: null
     time: 12:00 - 13:00
   - title: Mission Concepts and Ongoing Scientific Projects
-    description: Summary of missions concepts, including technical approach and ESE feedback
+    description: Summary of missions concepts, including technical approach and Earth System Explorer feedback
     time: 13:00 - 15:00
-    leads:
-    - HP Marshall
+    # leads:
+    # - HP Marshall
   - title: BREAK
     description: null
     time: 15:00 - 15:30
   - title: Poster Session
-    description: null
+    description: All participants are invitied to present during the afternoon poster session
     time: 15:30 - 17:00
 
 - title: Day 2
@@ -39,59 +39,32 @@ tabs:
   - title: Future of Snow Science
     description: TBD - Presentations / Breakout Session
     time: 8:00 - 10:00
-    leads:
-    - Joachim Meyer
+    # leads:
+    # - Joachim Meyer
   - title: BREAK
     description: null
     time: 10:00 - 10:30
   - title: Breakout Sessions
-    description: Best practices for collaborative coding and object oriented programming.
+    description: Map out future direction for snow science, modeling and remote sensing.
+                Identify areas that the snow community should focus on in the next decade
+                to make major advances in the future, both in snow and in the broader earth
+                science communities
     time: 10:30 - 12:30
-    leads:
-    - Noah Molotch
+    # leads:
+    # - Noah Molotch
   - title: LUNCH (catered)
     description: null
     time: 12:30 - 13:30
-  - title: Future of Snow Science Continued + Wrap Up
+  - title: Future of Snow Science Continued
+    description: Presentation of cloud computing, open science and community engagement
+    time: 13:30 - 15:20
+    # leads:
+    #   - Keith Musselman
+  - title: BREAK
     description: null
-    time: 13:30 - 17:00
-    leads:
-      - Keith Musselman
-      - Carrie Vuyovich
-
-
-# # ==========================
-# # Schedule in detail
-#   #- overview: Summary and State of the Science/Community Discussion
-#   #- moderator: Session 1 Moderator: Kate Hale
-#   #- goals: Welcome, expectations, initial summary of state of the science to date
-#
-#   - title: Introductory Session
-#     description: Welcome and getting to know each other.
-#     time: 8:30 - 9:30
-#     leads:
-#     - Anthony Arendt
-#   - title: CryoCloud
-#     description: Getting connected to our shared computational resources.
-#     time: 9:00 - 10:00
-#     leads:
-#     - Tasha Snow
-#   - title: BREAK
-#     description: null
-#     time: 10:00 - 10:30
-#   - title: Best Practices for Collaborative Development
-#     description: null
-#     time: 10:30 - 11:00
-#     leads:
-#     - Naomi Alterman
-#   - title: ICESat-2 Mission Overview and Data
-#     description: Summary of ICESat-2 datasets, algorithms and science applications.
-#     time: 11:00 - 12:00
-#     leads:
-#     - Ben Smith
-#   - title: LUNCH
-#     description: null
-#     time: 12:00 - 13:00
-#   - title: OPEN PROJECT WORK
-#     description: null
-#     time: 13:00 - 17:00
+    time: 15:20 - 15:45
+  - title: Meeting Wrap Up
+    description: Presentation of objectives and meeting takeaways followed by an optional group social
+    time: 15:45 - 16:45
+      # leads:
+      #   - Carrie Vuyovich

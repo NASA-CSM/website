@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ cookiecutter.banner.description }}">
     <meta name="author" content="{{ cookiecutter.name }}">
-    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" href="assets/images/snowicon.jpeg"> <!-- browser icon -->
 
     <!-- Google Font -->
     <link
@@ -19,7 +19,7 @@
     <!-- FontAwesome JS-->
     <script defer src="assets/fontawesome/js/all.min.js"></script>
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css"> <!--change theme here? -->
     <link rel="stylesheet" href="assets/css/main.css">
 
     <style>
@@ -35,10 +35,10 @@
     <div class="branding">
         <div class="container-fluid">
             <nav class="main-nav navbar navbar-expand-lg">
-                <div class="site-logo">
+                <div class="site-logo"> <!--change this? -->
                     <a class="scrollto" href="#hero-block">
                         <span class="logo-icon-text">
-                            UW eScience Hackweek
+                            NASA Terrestrial Hydrology Program
                         </span>
                     </a>
                 </div>
@@ -72,13 +72,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#team">
-                                Team
+                            <a class="nav-link scrollto" href="#schedule">
+                                Schedule
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#schedule">
-                                Schedule
+                            <a class="nav-link scrollto" href="#organizers">
+                                Organizers
                             </a>
                         </li>
                         <li class="nav-item">
@@ -151,7 +151,7 @@
             <a class="btn btn-secondary btn-lg"
                href="{{ cookiecutter.about.learn_more }}"
                target="_blank">
-                Learn about "Hackweeks"
+                Event Registration
                 <i class="fas fa-external-link-alt"></i>
             </a>
         </div>
@@ -298,9 +298,9 @@
                         </div>
                         {%- if 'leads' in content and content['leads']|length > 0 %}
                         <div class="profile">
-                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <h6 class="mb-1 mt-2"> Moderator:</h6>
                             {%- for lead in content['leads'] %}
-                            {%- set person = cookiecutter.team['people']|selectattr('title', '==', lead)|list %}
+                            {%- set person = cookiecutter.organizers['people']|selectattr('title', '==', lead)|list %}
                             {%- if person|length > 0 %}
                             {%- set modal_name = person[0]['title']|lower|replace(' ', '--') %}
                             {%- set modal_key = '{}-modal'.format(modal_name) %}
@@ -354,16 +354,16 @@
     <hr>
 </div>
 
-{%- if cookiecutter.team %}
-<section id="team" class="team section">
+{%- if cookiecutter.organizers %}
+<section id="organizers" class="organizers section">
     <div class="container">
-        <h3 class="section-heading text-center mb-3">Meet the team</h3>
+        <h3 class="section-heading text-center mb-3">Meet the Organizing Team</h3>
         <div class="section-intro text-center single-col-max mx-auto mb-5">
-            {{ cookiecutter.team['description'] }}
+            {{ cookiecutter.organizers['description'] }}
         </div>
-        {%- if cookiecutter.team['people'] %}
+        {%- if cookiecutter.organizers['people'] %}
         <div class="row">
-            {%- for person in cookiecutter.team['people'] %}
+            {%- for person in cookiecutter.organizers['people'] %}
             {%- set modal_name = person['title']|lower|replace(' ', '--') %}
             {%- set modal_key = '{}-modal'.format(modal_name) %}
             <div class="col-6 col-lg-3 mb-4">
@@ -502,7 +502,7 @@
     </div>
     <!--//container-->
 </section>
-<!--//team-->
+<!--//organizers-->
 {%- endif %}
 
 {%- if cookiecutter.sponsors %}
