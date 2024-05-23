@@ -303,15 +303,6 @@
                             {%- set person = cookiecutter.organizers['people']|selectattr('title', '==', lead)|list %}
                             {%- if person|length > 0 %}
                             {%- set modal_name = person[0]['title']|lower|replace(' ', '--') %}
-                            {%- set modal_key = '{}-modal'.format(modal_name) %}
-                            <div class="name">
-                                <a class="theme-link"
-                                   href="#{{modal_key}}"
-                                   data-bs-toggle="modal"
-                                   data-bs-target="#{{modal_key}}">
-                                    {{ lead }}
-                                </a>
-                            </div>
                             {%- else %}
                             <div class="name">{{ lead }}</div>
                             {%- endif %}
@@ -365,134 +356,26 @@
         <div class="row">
             {%- for person in cookiecutter.organizers['people'] %}
             {%- set modal_name = person['title']|lower|replace(' ', '--') %}
-            {%- set modal_key = '{}-modal'.format(modal_name) %}
             <div class="col-6 col-lg-3 mb-4">
-                <div class="card rounded-0">
-                    <a href="#{{ modal_key }}" data-bs-toggle="modal"
-                       data-bs-target="#{{ modal_key }}"><img
-                        src="{{ person['avatar'] }}"
-                        class="card-img-top rounded-0" alt=""></a>
+                <div class="card text-dark bg-light rounded-0">
+                    <img src="{{ person['avatar'] }}"
+                         class="card-img-top rounded-0" alt="">
                     <div class="card-body">
-                        <h5 class="card-title mb-2">{{ person['title'] }}</h5>
+                        <h5 class="card-header mb-2">
+                            {{ person['title'] }}
+                        </h5>
                         <div class="card-text mb-3">
                             <div class="meta">{{ person['role'] }}</div>
-                            <div class="meta">
-                                {%- for group in person['user_groups'] %}
-                                <img
-                                    src="https://img.shields.io/badge/Hackweek-{{ group }}-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
-                                    alt="{{ group }} badge"/>
-                                {%- endfor %}
-                            </div>
                         </div>
-                        <!--//card-text-->
-                        <a href="#{{ modal_key }}"
-                           data-bs-toggle="modal"
-                           data-bs-target="#{{ modal_key }}">
-                            Read more &rarr;
-                        </a>
+                      <ul class="list-group list-group-flush">
+                        {%- for org in person['organizations'] %}
+                            <li class="list-group-item">{{ org['name'] }}</li>
+                        {%- endfor %}
+                      </ul>
                     </div>
                     <!--//card-->
-                    {%- if 'social' in person %}
-                    <div class="card-footer text-muted">
-                        <ul class="social-list list-inline mb-0">
-                            {%- for social in person['social'] %}
-                            <li class="list-inline-item">
-                                <a href="{{social['link']}}">
-                                    <i class="{{social['icon_pack']}} fa-{{social['icon']}}"></i>
-                                </a>
-                            </li>
-                            {%- endfor %}
-                        </ul>
-                        <!--//social-list-->
-                    </div>
-                    {%- endif %}
                 </div>
                 <!--//card-->
-                <!-- Modal Speaker -->
-                <div class="modal modal-speaker modal-speaker-1"
-                     id="{{ modal_key }}" tabindex="-1" role="dialog"
-                     aria-labelledby="{{ modal_name }}-ModalLabel"
-                     aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="btn-close"
-                                        data-bs-dismiss="modal"
-                                        aria-hidden="true">&times;
-                                </button>
-                                <h4 id="{{modal_name}}-ModalLabel"
-                                    class="modal-title sr-only">
-                                    {{person['title']}}
-                                </h4>
-                            </div>
-                            <div class="modal-body p-0">
-                                <div class="theme-bg-light p-5">
-                                    <div class="row">
-                                        <div
-                                            class="col-12 col-md-auto text-center">
-                                            <img
-                                                class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-                                                src="{{ person['avatar'] }}"
-                                                alt=""/>
-                                        </div>
-
-                                        <div
-                                            class="col text-center text-md-start mx-auto">
-                                            <h2 class="name mb-2">
-                                                {{person['title']}}
-                                            </h2>
-                                            <div class="meta">
-                                                {{ person['role'] }}
-                                            </div>
-                                            <div class="meta mb-2">
-                                                {{person['organizations']|map(attribute='name')|join(' &amp; ')}}
-                                            </div>
-                                            {%- if 'social' in person %}
-                                            <ul class="social-list list-inline mb-0">
-                                                {%- for social in person['social'] %}
-                                                <li class="list-inline-item">
-                                                    <a href="{{social['link']}}">
-                                                        <i class="{{social['icon_pack']}} fa-{{social['icon']}}"></i>
-                                                    </a>
-                                                </li>
-                                                {%- endfor %}
-                                            </ul>
-                                            {%- endif %}
-                                            <!--//social-list-->
-                                        </div>
-                                        <!--//col-->
-                                    </div>
-                                    <!--//row-->
-                                </div>
-                                <div class="desc p-4 p-lg-5">
-                                    <div class="mb-2">
-                                        {%- for group in person['user_groups'] %}
-                                        <img
-                                            src="https://img.shields.io/badge/Hackweek-{{ group }}-purple?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAACXBIWXMAAAHKAAABygHMtnUxAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAMNJREFUGBltwcEqwwEcAOAfc1F2sNsOTqSlNUopSv5jW1YzHHYY/6YtLa1Jy4mbl3Bz8QIeyKM4fMaUxr4vZnEpjWnmLMSYCysxTcddhF25+EvJia5hhCudULAePyRalvUteXIfBgYxJufRuaKuprKsbDjVUrUj40FNQ11PTzEmrCmrevPhRcVQai8m1PRVvOPZgX2JttWYsGhD3atbHWcyUqX4oqDtJkJiJHUYv+R1JbaNHJmP/+Q1HLu2GbNoSm3Ft0+Y1YMdPSTSwQAAAABJRU5ErkJggg==&style=plastic"
-                                            alt="{{ group }} badge"
-                                        />
-                                        {%- endfor %}
-                                    </div>
-                                    {{ person['bio'] }}
-                                    {%- if person['expertise']|length > 0 %}
-                                    <div class="mt-1">
-                                        <h5>Interests / Expertise</h5>
-                                        <ul>
-                                            {%- for ex in person['expertise'] %}
-                                            <li>{{ex}}</li>
-                                            {%- endfor %}
-                                        </ul>
-                                    </div>
-                                    {%- endif %}
-                                </div>
-                            </div>
-                            <!--//modal-body-->
-                        </div>
-                        <!--//modal-content-->
-                    </div>
-                    <!--//modal-dialog-->
-                </div>
-                <!--//modal-->
             </div>
             <!--//col-->
             {%- endfor %}
