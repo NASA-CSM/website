@@ -5,15 +5,16 @@ tabs:
   contents:
   - title: State of the Science
     description: Welcome, expectations, initial summary of state of the science to date
+    # detail:
+    # - Over of NASA Terrestrial Hydrology Program
+    # - SnowEx Overview
     time: 8:00 - 9:30
     # leads:
     # - Kate Hale
-    # - Jared Entin/Craig Ferguson
-    # - Carrie Vuyovich
   - title: BREAK
     description: null
     time: 9:30 - 10:00
-  - title: Breakout Session for Current Sensing Techniques # can't use a ':'
+  - title: Breakout Session for Current Sensing Techniques
     description: Discuss the current capabilities and state of the art of numerous sensing techniques by answering breakout session questions
     time: 10:00 - 12:00
     # leads:
@@ -23,6 +24,12 @@ tabs:
     time: 12:00 - 13:00
   - title: Mission Concepts and Ongoing Scientific Projects
     description: Summary of missions concepts, including technical approach and Earth System Explorer feedback
+    detail: TEST THIS PART!
+    # - Terrestrial Snow Mass Mission
+    # - Surface Biology and Geology
+    # - NISAR
+    # - SnoWatch
+    # - SnowGlobe
     time: 13:00 - 15:00
     # leads:
     # - HP Marshall
@@ -30,25 +37,22 @@ tabs:
     description: null
     time: 15:00 - 15:30
   - title: Poster Session
-    description: All participants are invitied to present during the afternoon poster session
+    description: All participants are invited to present in the afternoon poster session
     time: 15:30 - 17:00
 
 - title: Day 2
   date: Thursday 15 August
   contents:
   - title: Future of Snow Science
-    description: TBD - Presentations / Breakout Session
+    description: Discussion of future mission, field campaign, and modeling/data assimilation needs
     time: 8:00 - 10:00
     # leads:
     # - Joachim Meyer
   - title: BREAK
     description: null
     time: 10:00 - 10:30
-  - title: Breakout Sessions
+  - title: Breakout Session for Next Decade Outlook
     description: Map out future direction for snow science, modeling and remote sensing.
-                Identify areas that the snow community should focus on in the next decade
-                to make major advances in the future, both in snow and in the broader earth
-                science communities
     time: 10:30 - 12:30
     # leads:
     # - Noah Molotch
