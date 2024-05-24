@@ -1,9 +1,12 @@
 repo_directory: html
 name: NASA Community Snow Meeting
+site_logo: 'assets/images/snowex_sm.png'
 apply:
   url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
   title: Applications coming soon, expected June 1
-hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html #keyword change?
+code_of_conduct:
+  url: 'code_of_conduct.html'
+  title: Meeting Code of Conduct
 banner:
   description: What's Next for Snow?
   start_date: 14
@@ -15,7 +18,7 @@ banner:
   # - url: intro.html
   #   title: Event Jupyter Book
   #   new_window: false
-  image: https://geohackweek.github.io/assets/images/banner.jpg
+  image: 'assets/images/CU-Boulder.jpg'
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-014T08:00:00-07:00"
 about:
@@ -23,14 +26,14 @@ about:
                to identify remaining snow science gaps, and to share components of different satellite mission proposals
                through a broad snow research gathering. We will work together to generate tangible next steps for the Decadal Survey
                and facilitate collaborations for future work.
-    # Meeting Objectives
-    #             - Summarize the SnowEx and working group accomplishments,
-    #             - Identify/prioritize remaining snow science gaps,
-    #             - Bring the larger snow community together,
-    #             - Share components of different satellite mission proposals,
-    #             - Generate tangible next steps for the Decadal Survey,
-    #             - Facilitate collaborations for future work.
-  learn_more: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform # registration link
+  objectives:
+    - Summarize the SnowEx and working group accomplishments,
+    - Identify/prioritize remaining snow science gaps,
+    - Bring the larger snow community together,
+    - Share components of different satellite mission proposals,
+    - Generate tangible next steps for the Decadal Survey,
+    - Facilitate collaborations for future work.
+  learn_more: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
   links:
     - url: https://above.nasa.gov/SnowEx/2020_agenda.html # past events, 2020 virtual meeting
       title: 2020 Virtual Meeting
@@ -45,7 +48,7 @@ sponsors:
   organizations:
   - name: NASA Snow
     website: https://snow.nasa.gov/
-    logo_url: '' #https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+    logo_url: https://snow.nasa.gov/themes/custom/sixseventeen/images/nasa.svg
 footer:
   social:
   - icon: github
