@@ -41,10 +41,10 @@ organizers:
 schedule:
   !include schedule.yaml
 sponsors:
-  description: ''
+  description: Thank you to the NASA Terrestrial Hydrology Program
   organizations:
   - name: NASA Snow
-    website: https://snow.nasa.gov/ # was ''
+    website: https://snow.nasa.gov/
     logo_url: '' #https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
 footer:
   social:
