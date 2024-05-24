@@ -230,7 +230,12 @@
                 Time Zone Map
             </a>
             to figure out times in your location.</h4>
-        {%- if cookiecutter.schedule["tabs"] %}
+        {%- if 'info' in cookiecutter.schedule %}
+        <div class="text-center fw-bold fs-4 mb-3">
+            {{ cookiecutter.schedule.info }}
+        </div>
+        {%- endif %}
+        {%- if 'tabs' in cookiecutter.schedule %}
         <!-- Nav tabs -->
         <ul class="schedule-nav nav nav-pills nav-fill" id="myTab"
             role="tablist">
