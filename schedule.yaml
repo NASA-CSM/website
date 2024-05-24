@@ -10,12 +10,15 @@ tabs:
     # - Over of NASA Terrestrial Hydrology Program
     # - SnowEx Overview
     time: 8:00 - 9:30
+    details:
+      - Overview of NASA Terrestrial Hydrology Program
+      - SnowEx mission overview and recap
     # leads:
     # - Kate Hale
   - title: BREAK
     description: null
     time: 9:30 - 10:00
-  - title: Breakout Session for Current Sensing Techniques
+  - title: 'Breakout Session: for Current Sensing Techniques'
     description: Discuss the current capabilities and state of the art of numerous sensing techniques by answering breakout session questions
     time: 10:00 - 12:00
     # leads:

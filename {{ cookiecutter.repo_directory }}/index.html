@@ -342,16 +342,13 @@
                             {%- endfor %}
                         </div>
                         {%- endif %}
-                        {%- if 'resources' in content and content['resources'] is not none %}
+                        {%- if 'details' in content and content['details'] is not none %}
                         <div>
-                            <h6 class="mb-1 mt-2"> Resource(s)</h6>
+                            <h6 class="mb-1 mt-2"> Detail(s)</h6>
                             <ul>
-                                {%- for resource in content['resources'] %}
+                                {%- for detail in content['details'] %}
                                 <li>
-                                    <a href="{{resource['url']}}"
-                                       target="_blank">
-                                        {{resource['title']}}
-                                    </a>
+                                    {{ detail }}
                                 </li>
                                 {%- endfor %}
                             </ul>
