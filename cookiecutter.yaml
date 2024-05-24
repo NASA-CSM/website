@@ -7,6 +7,7 @@ apply:
 code_of_conduct:
   url: 'code_of_conduct.html'
   title: Meeting Code of Conduct
+  text: Please read and familiarize yourself with the meeting code of conduct
 banner:
   description: What's Next for Snow?
   start_date: 14
