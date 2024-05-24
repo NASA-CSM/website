@@ -1,5 +1,6 @@
 repo_directory: html
 name: NASA Community Snow Meeting
+site_logo: 'assets/images/snowex_sm.png'
 apply:
   url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
   title: Applications coming soon, expected June 1
