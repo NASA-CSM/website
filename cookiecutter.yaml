@@ -4,7 +4,9 @@ site_logo: 'assets/images/snowex_sm.png'
 apply:
   url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
   title: Applications coming soon, expected June 1
-hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html #keyword change?
+code_of_conduct:
+  url: 'code_of_conduct.html'
+  title: Meeting Code of Conduct
 banner:
   description: What's Next for Snow?
   start_date: 14
