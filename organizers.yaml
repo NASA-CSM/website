@@ -19,18 +19,18 @@ people:
     organizations:
       - name: Boise State University
 # =============
+  - title: Carrie Vuyovich
+    role: Research Physical Scientist, SnowEx Project Scientist
+    avatar: ''
+    organizations:
+      - name: NASA GSFC
+# =============
   - title: Keith Musselman
     role: Assistant Professor
     avatar: ''
     organizations:
       - name: University of Colorado Boulder
 # =============
-  - title: Carrie Vuyovich
-    role: Research Physical Scientist, SnowEx Project Scientist
-    avatar: ''
-    organizations:
-      - name: NASA GSFC
-  # =============
   - title: Noah Molotch
     role: Associate Professor
     avatar: ''

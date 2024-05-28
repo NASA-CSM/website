@@ -138,7 +138,7 @@
 <section id="about-section" class="about-section section theme-bg-light">
     <div class="container">
         <h3 class="section-heading text-center mb-3">
-            About {{ cookiecutter.name }}
+            About the {{ cookiecutter.name }}
         </h3>
         <div class="section-intro single-col-max mx-auto mb-3">
             {{ cookiecutter.about.description }}
@@ -228,12 +228,12 @@
     <div class="container">
         <h3 class="section-heading text-center mb-1">Schedule</h3>
         <h4 class="text-center mb-5">
-            All times listed below are {{ cookiecutter.schedule.timezone }}.
-            You might want to consult this
+            All times listed below are {{ cookiecutter.schedule.timezone }}
+            <!-- You might want to consult this -->
             <a href="https://www.timeanddate.com/time/map/" target="_blank">
-                Time Zone Map
+                <!-- (Mountain Daylight Time). Time Zone Map -->
             </a>
-            to figure out times in your location.</h4>
+            <!--to figure out times in your location.--></h4>
         {%- if 'info' in cookiecutter.schedule %}
         <div class="text-center fw-bold fs-4 mb-3">
             {{ cookiecutter.schedule.info }}

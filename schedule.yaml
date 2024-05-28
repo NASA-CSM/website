@@ -1,11 +1,11 @@
-timezone: UTC -6 (Mountain Daylight Time)
+timezone: Mountain Daylight Time (UTC -6).
 info: A finalized schedule will be available by July 1
 tabs:
 - title: Day 1
   date: Wednesday 14 August
   contents:
   - title: State of the Science
-    description: Welcome, expectations, initial summary of state of the science to date
+    description: Welcome, expectations, current status of NASA community snow science
     time: 8:00 - 9:30
     details:
       - Overview of NASA Terrestrial Hydrology Program
@@ -16,7 +16,7 @@ tabs:
     description: null
     time: 9:30 - 10:00
   - title: Breakout Session for Current Sensing Techniques
-    description: Discuss the current capabilities and state of the art of numerous sensing techniques by answering breakout session questions
+    description: Discuss current capabilities for sensing snow through a breakout Question & Answer session
     time: 10:00 - 12:00
     # leads:
     # - Jack Tarricone
@@ -45,7 +45,7 @@ tabs:
   date: Thursday 15 August
   contents:
   - title: Future of Snow Science
-    description: Discussion of future mission, field campaign, and modeling/data assimilation needs
+    description: Discuss future needs for satellite missions, field campaigns, and modeling/data assimilation
     time: 8:00 - 10:00
     # leads:
     # - Joachim Meyer
@@ -53,7 +53,7 @@ tabs:
     description: null
     time: 10:00 - 10:30
   - title: 'Breakout Session: Planning for the Decade Ahead'
-    description: Map out future direction for snow science, modeling and remote sensing.
+    description: Map out future directions for snow science, modeling and remote sensing.
     time: 10:30 - 12:30
     # leads:
     # - Noah Molotch
