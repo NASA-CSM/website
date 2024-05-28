@@ -6,9 +6,6 @@ tabs:
   contents:
   - title: State of the Science
     description: Welcome, expectations, initial summary of state of the science to date
-    # detail:
-    # - Over of NASA Terrestrial Hydrology Program
-    # - SnowEx Overview
     time: 8:00 - 9:30
     details:
       - Overview of NASA Terrestrial Hydrology Program
@@ -18,7 +15,7 @@ tabs:
   - title: BREAK
     description: null
     time: 9:30 - 10:00
-  - title: 'Breakout Session: for Current Sensing Techniques'
+  - title: Breakout Session for Current Sensing Techniques
     description: Discuss the current capabilities and state of the art of numerous sensing techniques by answering breakout session questions
     time: 10:00 - 12:00
     # leads:
@@ -28,12 +25,12 @@ tabs:
     time: 12:00 - 13:00
   - title: Mission Concepts and Ongoing Scientific Projects
     description: Summary of missions concepts, including technical approach and Earth System Explorer feedback
-    detail: TEST THIS PART!
-    # - Terrestrial Snow Mass Mission
-    # - Surface Biology and Geology
-    # - NISAR
-    # - SnoWatch
-    # - SnowGlobe
+    details:
+      - Terrestrial Snow Mass Mission
+      - Surface Biology and Geology
+      - NISAR
+      - SnoWatch
+      - SnowGlobe
     time: 13:00 - 15:00
     # leads:
     # - HP Marshall
@@ -55,7 +52,7 @@ tabs:
   - title: BREAK
     description: null
     time: 10:00 - 10:30
-  - title: Breakout Session for Next Decade Outlook
+  - title: 'Breakout Session: Planning for the Decade Ahead'
     description: Map out future direction for snow science, modeling and remote sensing.
     time: 10:30 - 12:30
     # leads:

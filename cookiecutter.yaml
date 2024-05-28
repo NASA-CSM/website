@@ -23,10 +23,11 @@ banner:
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-014T08:00:00-07:00"
 about:
-  description: The summer meeting aims to summarize the SnowEx and working group accomplishments,
-               to identify remaining snow science gaps, and to share components of different satellite mission proposals
-               through a broad snow research gathering. We will work together to generate tangible next steps for the Decadal Survey
-               and facilitate collaborations for future work.
+  description: ''
+    # The summer meeting aims to summarize the SnowEx and working group accomplishments,
+    # to identify remaining snow science gaps, and to share components of different satellite mission proposals
+    # through a broad snow research gathering. We will work together to generate tangible next steps for the Decadal Survey
+    # and facilitate collaborations for future work.
   objectives:
     - Summarize the SnowEx and working group accomplishments,
     - Identify/prioritize remaining snow science gaps,
