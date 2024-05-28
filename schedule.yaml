@@ -53,7 +53,7 @@ tabs:
     description: null
     time: 10:00 - 10:30
   - title: 'Breakout Session: Planning for the Decade Ahead'
-    description: Map out future directions for snow science, modeling and remote sensing.
+    description: Map out future directions for snow science, modeling and remote sensing
     time: 10:30 - 12:30
     # leads:
     # - Noah Molotch
