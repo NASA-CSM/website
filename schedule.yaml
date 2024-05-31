@@ -26,9 +26,9 @@ tabs:
   - title: Mission Concepts and Ongoing Scientific Projects
     description: Summary of missions concepts, including technical approach and Earth System Explorer feedback
     details:
-      - Terrestrial Snow Mass Mission
       - Surface Biology and Geology
       - NISAR
+      - Terrestrial Snow Mass Mission
       - SnoWatch
       - SnowGlobe
     time: 13:00 - 15:00
