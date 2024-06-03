@@ -41,6 +41,8 @@ about:
       title: 2020 Virtual Meeting
       new_window: True
 applicant_info: Registration due by July 15 for in-person attendees (July 1 for those applying for travel support).
+logistics:
+  !include logistics.yaml
 organizers:
   !include organizers.yaml
 schedule:

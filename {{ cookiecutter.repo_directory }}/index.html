@@ -63,7 +63,7 @@
                      class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
                     <ul class="nav navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#about-section">
+                            <a class="nav-link scrollto" href="#about">
                                 About
                             </a>
                         </li>
@@ -73,12 +73,17 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link scrollto" href="#logistics">
+                                Logistics
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link scrollto" href="#organizers">
                                 Organizers
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#sponsors-section">
+                            <a class="nav-link scrollto" href="#sponsors">
                                 Sponsors
                             </a>
                         </li>
@@ -135,7 +140,7 @@
 </div>
 <!--//hero-block-->
 
-<section id="about-section" class="about-section section theme-bg-light">
+<section id="about" class="about-section section theme-bg-light">
     <div class="container">
         <h3 class="section-heading text-center mb-3">
             About the {{ cookiecutter.name }}
@@ -364,9 +369,22 @@
 <!--//schedule-section-->
 {% endif %}
 
-<div class="container">
-    <hr>
-</div>
+<section id="logistics" class="logistics-section section theme-bg-light">
+    <div class="container">
+        <h3 class="section-heading text-center mb-3">Meeting Location</h3>
+        <div class="section-intro text-center single-col-max mx-auto mb-4">
+            {{ cookiecutter.logistics['location'] }}
+        </div>
+        <h4 class="section-heading text-center mb-3 fs-4">Travel</h4>
+        <div class="section-intro text-center single-col-max mx-auto mb-5">
+            {{ cookiecutter.logistics['travel'] }}
+        </div>
+        <h4 class="section-heading text-center mb-3 fs-4">Lodging</h4>
+        <div class="section-intro text-center single-col-max mx-auto">
+            {{ cookiecutter.logistics['lodging'] }}
+        </div>
+    </div>
+</section>
 
 {%- if cookiecutter.organizers %}
 <section id="organizers" class="organizers section">
@@ -412,7 +430,7 @@
 {%- endif %}
 
 {%- if cookiecutter.sponsors %}
-<section id="sponsors-section" class="sponsors-section section theme-bg-light">
+<section id="sponsors" class="sponsors-section section theme-bg-light">
     <div class="container">
         <h3 class="section-heading text-center mb-3">Our Sponsors</h3>
         <div class="section-intro text-center single-col-max mx-auto mb-5">
