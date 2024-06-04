@@ -5,7 +5,7 @@ apply:
   url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
   title: Register Here
 code_of_conduct:
-  url: 'code_of_conduct.html'
+  url: https://docs.google.com/document/d/1kvNkrjohWDpfpKquHlchD5DwPDASJEDz/edit?usp=sharing&ouid=109139541642681372935&rtpof=true&sd=true 
   title: Meeting Code of Conduct
   text: Please familiarize yourself with the meeting code of conduct
 banner:
@@ -24,10 +24,6 @@ banner:
 event_countdown: "2024-08-014T08:00:00-07:00"
 about:
   description: 'Our meeting agenda will focus on the following objectives:'
-    # The summer meeting aims to summarize the SnowEx and working group accomplishments,
-    # to identify remaining snow science gaps, and to share components of different satellite mission proposals
-    # through a broad snow research gathering. We will work together to generate tangible next steps for the Decadal Survey
-    # and facilitate collaborations for future work.
   objectives:
     - Summarize the SnowEx and working group accomplishments
     - Identify/prioritize remaining snow science gaps
