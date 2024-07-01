@@ -1,75 +1,112 @@
 timezone: Mountain Daylight Time (UTC -6).
-info: A finalized schedule will be available by July 1
+#info: 
 tabs:
 - title: Day 1
   date: Wednesday 14 August
   contents:
-  - title: State of the Science
-    description: Welcome, expectations, current status of NASA community snow science
-    time: 8:00 - 9:30
+  - title: Summary and State of the Science/Community Discussion
+    description: Welcome, expectations, current status of NASA community snow science.
+    time: 7:45 - 9:30
     details:
-      - Overview of NASA Terrestrial Hydrology Program
-      - SnowEx mission overview and recap
-    # leads:
-    # - Kate Hale
+      - 7:45 - Check in, coffee available
+      - 8:15 - Welcome, introductions
+      - 8:30 - Overview of NASA Terrestrial Hydrology Program (Jared Entin)
+      - 8:50 - SnowEx Overview (2017-2023) (Carrie Vuyovich)
+      - 9:15 - Questions/Discussion
+    leads: Kate Hale
   - title: BREAK
     description: null
-    time: 9:30 - 10:00
+    time: 9:30 - 9:50
   - title: Breakout Session for Current Sensing Techniques
-    description: Discuss current capabilities for sensing snow through a breakout Question & Answer session
-    time: 10:00 - 12:00
-    # leads:
-    # - Jack Tarricone
+    description: "Discuss the current capabilities and state of the art of numerous sensing techniques. </br> </br>
+    Breakout session groups:
+    <ul> <li> Microwave Scattering </li>
+    <li> Signals of Opportunity </li>
+    <li> UAV applications </li>
+    <li> Snowpack and Hydrologic Modeling </li>
+    <li> Ground-based/observational </li>
+    <li> Snowpack Albedo </li>
+    <li> L-band InSAR </li>
+    <li> Spaceborne lidar/stereo </li> </ul>"
+    #<ul><li>one</li><li>two</li></ul> # unordered list
+    time: 9:50 - 12:00
+    details:
+      -  9:50 - Introduce breakout session objectives & expecations
+      - 10:00 - Breakout group discussion time
+      - 11:00 - Summarize sensing technique breakout discussions to full group
+    leads: Jack Tarricone
   - title: LUNCH (catered)
     description: null
     time: 12:00 - 13:00
   - title: Mission Concepts and Ongoing Scientific Projects
-    description: Summary of missions concepts, including technical approach and Earth System Explorer feedback
-    details:
-      - Surface Biology and Geology
-      - NISAR
-      - Terrestrial Snow Mass Mission
-      - SnoWatch
-      - SnowGlobe
+    description: Summary of missions concepts, including technical approach and Earth System Explorer feedback.
     time: 13:00 - 15:00
-    # leads:
-    # - HP Marshall
+    details:
+      - 13:00 - Terrestrial Snow Mass Mission, TSMM (Benoit Montpetit)
+      - 13:20 - Surface Biology and Geology, SBG (Niklas Bohn)
+      - 13:40 - NISAR (Shadi Oveisgharan)
+      - 14:00 - SnoWatch (Steve Margulis)
+      - 14:20 - SnowGlobe (Ana Barros)
+      - 14:40 - Questions/Discussion
+    leads: HP Marshall
   - title: BREAK
     description: null
     time: 15:00 - 15:30
   - title: Poster Session
-    description: All participants are invited to present in the afternoon poster session
+    description: All participants are invited to present in the afternoon poster session.
     time: 15:30 - 17:00
+    leads: Megan Mason
+  - title: DINNER (on your own)
+    description: null
+    time: '17:00'
 
 - title: Day 2
   date: Thursday 15 August
   contents:
-  - title: Future of Snow Science
-    description: Discuss future needs for satellite missions, field campaigns, and modeling/data assimilation
-    time: 8:00 - 10:00
-    # leads:
-    # - Joachim Meyer
+  - title: Future of Snow Remote Sensing & Science </br> </br>
+           Breakout Session for Big Picture Snow Science
+    description: What to aim for in snow science, remote sensing, and modeling.
+    time: 7:45 - 10:00
+    details:
+      - 7:45 - Arrive, coffee available
+      - 8:15 - Announcements, day 1 follow up and introduce breakout session objectives & expectations
+      - 8:30 - Breakout group discussion time
+      - 9:30 - Summarize breakout discussions to full group
+    leads: Joachim Meyer
   - title: BREAK
     description: null
-    time: 10:00 - 10:30
-  - title: 'Breakout Session: Planning for the Decade Ahead'
-    description: Map out future directions for snow science, modeling and remote sensing
-    time: 10:30 - 12:30
-    # leads:
-    # - Noah Molotch
+    time: 10:00 - 10:20
+  - title: Breakout Session for Near Term Next Steps
+    description: Identify areas that the snow community should focus on in the next decade to make major advances in the future, both in snow and in the broader earth science communities.
+    time: 10:20 - 12:30
+    details:
+      - 10:20 - Introduce breakout session objectives & expectations
+      - 10:30 - Breakout group discussion time
+      - 11:30 - Summarize breakout discussions to full group
+    leads: Noah Molotch
   - title: LUNCH (catered)
     description: null
     time: 12:30 - 13:30
-  - title: Future of Snow Science Continued
-    description: Presentation of cloud computing, open science and community engagement
-    time: 13:30 - 15:20
-    # leads:
-    #   - Keith Musselman
+  - title: Community Engagement and Operations
+    description: Ways to increase engagement with the broader snow science community through data distribution centers, open science workshops, and operational environments.
+    time: 13:30 - 15:30
+    details:
+      - 13:30 - NASA distributed active archiving centers & cloud computing (Joseph Kennedy)
+      - 13:45 - Open science and community engagement (Stephanie Wong)
+      - 14:00 - Linking Hackweeks & NASA SnowEx Hackweeks to future missions (Anthony Arendt)
+      - 14:15 - SnowSchool update (McKenzie Skiles)
+      - 14:30 - Denver Water (Taylor Winchell)
+      - 15:00 - Research & Flight Operations of airborne platforms (Jeff Deems)
+      - 15:15 - River Forecast Center applications (Joe Meyer)
+      - 15:30 - Questions/Discussion
+    leads: Keith Musselman
   - title: BREAK
     description: null
-    time: 15:20 - 15:45
+    time: 15:30 - 16:00
   - title: Meeting Wrap Up
-    description: Presentation of objectives and meeting takeaways followed by an optional group social
-    time: 15:45 - 16:45
-      # leads:
-      #   - Carrie Vuyovich
+    description: Wrap up, presentation of objectives and meeting takeaways.
+    time: 16:00 - 17:00
+    leads: Carrie Vuyovich
+  - title: Group Social
+    description: Gathering at Rayback Collective (2775 Valmont Rd. Boulder, CO)
+    time: '17:00'

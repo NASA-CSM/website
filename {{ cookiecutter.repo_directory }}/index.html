@@ -329,20 +329,12 @@
 
                         {%- if 'leads' in content and content['leads']|length > 0 %}
                         <div class="profile">
-                            <h6 class="mb-1 mt-2"> Moderator:</h6>
-                            {%- for lead in content['leads'] %}
-                            {%- set person = cookiecutter.organizers['people']|selectattr('title', '==', lead)|list %}
-                            {%- if person|length > 0 %}
-                            {%- set modal_name = person[0]['title']|lower|replace(' ', '--') %}
-                            {%- else %}
-                            <div class="name">{{ lead }}</div>
-                            {%- endif %}
-                            {%- endfor %}
+                            <h6 class="mb-1 mt-2"> Moderator: {{ content['leads'] }}</h6>
                         </div>
                         {%- endif %}
                         {%- if 'details' in content and content['details'] is not none %}
                         <div>
-                            <h6 class="mb-1 mt-2"> Detail(s)</h6>
+                            <h6 class="mb-1 mt-2"> </h6> <!-- text here (e.g. Detail(s)) -->
                             <ul>
                                 {%- for detail in content['details'] %}
                                 <li>
