@@ -2,10 +2,10 @@ repo_directory: html
 name: NASA Community Snow Meeting
 site_logo: 'assets/images/snowex_sm.png'
 apply:
-  url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
-  title: Register Here
+#  url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
+#  title: Register Here
 code_of_conduct:
-  url: https://drive.google.com/file/d/1yu65DnHI8R1gXK4GC-eD4d-KD1JvMDQQ/view?usp=drive_link 
+  url: https://drive.google.com/file/d/1yu65DnHI8R1gXK4GC-eD4d-KD1JvMDQQ/view
   title: Meeting Code of Conduct
   text: Please familiarize yourself with the meeting code of conduct
 banner:
@@ -36,7 +36,8 @@ about:
     - url: https://above.nasa.gov/SnowEx/2020_agenda.html # past events, 2020 virtual meeting
       title: 2020 Virtual Meeting
       new_window: True
-applicant_info: Registration due by July 15 for in-person attendees (July 1 for those applying for travel support).
+applicant_info:
+  ''
 logistics:
   !include logistics.yaml
 organizers:
