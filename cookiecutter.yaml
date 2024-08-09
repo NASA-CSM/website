@@ -4,6 +4,8 @@ site_logo: 'assets/images/snowex_sm.png'
 apply:
 #  url: https://docs.google.com/forms/d/e/1FAIpQLSfGnVvUXE9YNomQt6trZB_Sklmv1IZIPyang3kknkd56rew2Q/viewform
 #  title: Register Here
+ url: https://drive.google.com/drive/folders/1aycZ67BV07sFTsA0Zd0a51uOO0fvbowa?usp=drive_link
+ title: Meeting Drive
 code_of_conduct:
   url: https://drive.google.com/file/d/1yu65DnHI8R1gXK4GC-eD4d-KD1JvMDQQ/view
   title: Meeting Code of Conduct
@@ -15,6 +17,10 @@ banner:
   year: 2024
   location: Boulder, CO (virtually accessible) #University of Colorado Boulder campus in Boulder, Colorado, USA (virtually accessible)
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
+  links: # tried this but it doesn't show up!
+    - url: https://drive.google.com/drive/folders/1aycZ67BV07sFTsA0Zd0a51uOO0fvbowa?usp=drive_link
+      title: Meeting Drive
+      new_window: True
   links:
   # - url: intro.html
   #   title: Event Jupyter Book
