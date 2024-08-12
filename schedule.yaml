@@ -1,5 +1,5 @@
 timezone: Mountain Daylight Time (UTC -6).
-#info: 
+#info:
 tabs:
 - title: Day 1
   date: Wednesday 14 August
@@ -10,10 +10,10 @@ tabs:
     details:
       - 7:45 - Check in, coffee available
       - 8:15 - Welcome, introductions
-      - 8:30 - Overview of NASA Terrestrial Hydrology Program (Jared Entin)
+      - 8:30 - NASA Terrestrial Hydrology Program (Jared Entin, Craig Ferguson)
       - 8:50 - SnowEx Overview (2017-2023) (Carrie Vuyovich)
       - 9:15 - Questions/Discussion
-    leads: Kate Hale
+    leads: Kate Hale, Jack Tarricone (Virtual), Randall Bonnell (Notes)
   - title: BREAK
     description: null
     time: 9:30 - 9:50
@@ -34,7 +34,7 @@ tabs:
       -  9:50 - Introduce breakout session objectives & expecations
       - 10:00 - Breakout group discussion time
       - 11:00 - Summarize sensing technique breakout discussions to full group
-    leads: Jack Tarricone
+    leads: Jack Tarricone, HP Marshall (Virtual), Mimi Hughes (Notes)
   - title: LUNCH (catered)
     description: null
     time: 12:00 - 13:00
@@ -48,7 +48,7 @@ tabs:
       - 14:00 - SnoWatch (Steve Margulis)
       - 14:20 - SnowGlobe (Ana Barros)
       - 14:40 - Questions/Discussion
-    leads: HP Marshall
+    leads: HP Marshall, Joe Meyer (Virtual), Aditya Khuller (Notes)
   - title: BREAK
     description: null
     time: 15:00 - 15:30
@@ -72,41 +72,41 @@ tabs:
       - 8:15 - Announcements, day 1 follow up and introduce breakout session objectives & expectations
       - 8:30 - Breakout group discussion time
       - 9:30 - Summarize breakout discussions to full group
-    leads: Joachim Meyer
+    leads: Joachim Meyer, Noah Molotch (Virtual), Otto Lang (Notes)
   - title: BREAK
     description: null
-    time: 10:00 - 10:20
+    time: 10:30 - 10:50
   - title: Breakout Session for Near Term Next Steps
     description: Identify areas that the snow community should focus on in the next decade to make major advances in the future, both in snow and in the broader earth science communities.
-    time: 10:20 - 12:30
+    time: 10:50 - 13:00
     details:
-      - 10:20 - Introduce breakout session objectives & expectations
-      - 10:30 - Breakout group discussion time
-      - 11:30 - Summarize breakout discussions to full group
-    leads: Noah Molotch
+      - 10:50 - Introduce breakout session objectives & expectations
+      - 11:00 - Breakout group discussion time
+      - 12:00 - Summarize breakout discussions to full group
+    leads: Noah Molotch, Keith Musselman (Virtual), Hamish Prichard (Notes)
   - title: LUNCH (catered)
     description: null
-    time: 12:30 - 13:30
+    time: 13:00 - 14:00
   - title: Community Engagement and Operations
     description: Ways to increase engagement with the broader snow science community through data distribution centers, open science workshops, and operational environments.
-    time: 13:30 - 15:30
+    time: 14:00 - 17:00
     details:
-      - 13:30 - NASA distributed active archiving centers & cloud computing (Joseph Kennedy)
-      - 13:45 - Open science and community engagement (Stephanie Wong)
-      - 14:00 - Linking Hackweeks & NASA SnowEx Hackweeks to future missions (Anthony Arendt)
-      - 14:15 - SnowSchool update (McKenzie Skiles)
-      - 14:30 - Denver Water (Taylor Winchell)
+      - 14:00 - NASA distributed active archiving centers & cloud computing (Joseph Kennedy)
+      - 14:15 - Open science and community engagement (Stephanie Wong)
+      - 14:30 - Linking Hackweeks & NASA SnowEx Hackweeks to future missions (Anthony Arendt)
+      - 14:45 - SnowSchool update (McKenzie Skiles)
       - 15:00 - Research & Flight Operations of airborne platforms (Jeff Deems)
-      - 15:15 - River Forecast Center applications (Joe Meyer)
-      - 15:30 - Questions/Discussion
-    leads: Keith Musselman
+      - 15:15 - Colorado Airborne Snow Measurement Program (CASM) (Taylor Winchell)
+      - 15:30 - River Forecast Center applications (Joe Meyer)
+      - 15:45 - Questions/Discussion
+    leads: Keith Musselman, Carrie Vuyovich (Virtual), Millie Spencer (Notes)
   - title: BREAK
     description: null
-    time: 15:30 - 16:00
+    time: 16:00 - 16:15
   - title: Meeting Wrap Up
     description: Wrap up, presentation of objectives and meeting takeaways.
-    time: 16:00 - 17:00
-    leads: Carrie Vuyovich
+    time: 16:15 - 16:45
+    leads: Carrie Vuyovich, Kate Hale (Virtual), Katie Breen (Notes)
   - title: Group Social
     description: Gathering at Rayback Collective (2775 Valmont Rd. Boulder, CO)
     time: '17:00'
